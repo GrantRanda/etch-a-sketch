@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#button_clear,
+#button_monochrome,
+#button_rainbow,
+#button_gradient {
+    height: 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    background-color: lightslategray;
+    border: none;
+    border-radius: 1px;
+    transition-duration: 0.1s;
+}
+
+#button_clear:hover,
+#button_monochrome:hover,
+#button_rainbow:hover,
+#button_gradient:hover {
+    background-color: whitesmoke;
+    color: lightslategray;
+}
+
+#button_clear {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#button_toggle_color {
+    width: 120px;
+    margin-top: 20px;
+}
+
+#container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: ivory;
+}
